@@ -1,4 +1,5 @@
 #!/bin/python3
+
 def solution_one(n, m):
     for i in range(1, n, 2): 
         print((i * '.|.').center(m, '-'))
