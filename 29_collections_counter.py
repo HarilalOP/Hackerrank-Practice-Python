@@ -24,3 +24,5 @@ if __name__ == '__main__':
     x = int(input())
     counter = Counter(list(map(int, input().split())))
     n = int(input())
+    solution_one()
+    # solution_two()
