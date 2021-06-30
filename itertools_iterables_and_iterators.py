@@ -7,7 +7,7 @@ def solution_one():
     indices = [idx + 1 for idx, char in enumerate(input().split()) if char == 'a']
     k = int(input())
     combs = [c for c in combinations(range(1, n+1), k)]
-    print(sum([any(t in c for t in indices) for c in combs])/len(combs))
+    print("{0:.3}".format(sum([any(t in c for t in indices) for c in combs])/len(combs)))
 
 def solution_two():   
     _, a, k = input(),input().split(),int(input())
